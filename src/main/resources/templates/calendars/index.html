@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
   <html xmlns:th="http://www.thymeleaf.org" lang="ja">
   <head>
     <meta charset="UTF-8">
@@ -29,9 +30,9 @@
             <ul class="content">
               <li th:each="plan : ${day.plans}" class="plan-list">・<span th:text="${plan}"></span></li>
             </ul>
+
           </div>
         </div>
       </div>
     </div>
-  </body>
-  </html>
+
